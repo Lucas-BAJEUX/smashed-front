@@ -3,11 +3,11 @@ import VueRouter from "vue-router";
 
 import * as names from "./names";
 
-import HomePage from "../views/PageAccueil.vue";
+import PageAccueil from "../views/PageAccueil.vue";
 
 Vue.use(VueRouter);
 
-const routes = [{ path: "/", name: names.HOMEPAGE, component: HomePage }];
+const routes = [{ path: "/", name: names.HOMEPAGE, component: PageAccueil }];
 
 const router = new VueRouter({
   mode: "history",
